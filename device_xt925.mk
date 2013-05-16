@@ -33,7 +33,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	persist.radio.call_type=1 \
 	persist.radio.apm_sim_not_pwdn=1 \
 	persist.radio.dfr_mode_set=1 \
-	ro.telephony.ril.v3=signalstrength
+	ro.telephony.ril.v3=signalstrength \
+	ro.mot.eri=0
 
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/config/gps.conf:system/etc/gps.conf
