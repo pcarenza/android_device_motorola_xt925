@@ -52,9 +52,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.telephony.ril.v3=signalstrength \
 	ro.mot.eri=0
 
-PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/config/gps.conf:system/etc/gps.conf
-
 $(call inherit-product, device/motorola/msm8960-common/idc/idc.mk)
 $(call inherit-product, device/motorola/msm8960-common/keychars/keychars.mk)
 $(call inherit-product, device/motorola/msm8960-common/keylayout/keylayout.mk)
